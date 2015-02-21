@@ -15,11 +15,16 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     var audioPlayer: AVAudioPlayer?
     var audioRecorder: AVAudioRecorder?
     
+    @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var recordButton: UIButton!
+    
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         
-        playButton.(playButton) = false
-        stopButton.(stopButton) = false
+        playButton.enabled = false
+        stopButton.enabled = false
         
         let dirPaths =
         NSSearchPathForDirectoriesInDomains(.DocumentDirectory,
@@ -52,7 +57,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
         } else {
             audioRecorder?.prepareToRecord()
         }
-            }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -60,8 +66,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     
     @IBAction func recordButton(sender: UIButton) {
         if audioRecorder?.recording == false {
-            playButton.playButton = false
-            stopButton.(stopButton) = true
+            playButton.enabled = false
+            stopButton.enabled = true
             audioRecorder?.record()
         }
     }
@@ -69,7 +75,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVAudioRecorderDe
     @IBAction func stopButton(sender: UIButton) {
         stopButton.enabled = false
         playButton.enabled = true
-        recordButton.(recordButton) = true
+        recordButton.enabled = true
         
         if audioRecorder?.recording == true {
             audioRecorder?.stop()

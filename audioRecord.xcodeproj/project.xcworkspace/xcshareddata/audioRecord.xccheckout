@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A849C3B-1505-4088-9732-017ADA0C1E05</string>
+	<key>IDESourceControlProjectName</key>
+	<string>audioRecord</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4E11967A4BF43C87E4621B0BC39B36D3328C5B4D</key>
+		<string>https://github.com/loretod/audioRecord.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>audioRecord.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4E11967A4BF43C87E4621B0BC39B36D3328C5B4D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/loretod/audioRecord.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4E11967A4BF43C87E4621B0BC39B36D3328C5B4D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4E11967A4BF43C87E4621B0BC39B36D3328C5B4D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>audioRecord</string>
+		</dict>
+	</array>
+</dict>
+</plist>

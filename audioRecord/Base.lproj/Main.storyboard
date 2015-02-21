@@ -48,6 +48,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="playButton" destination="LuL-Zp-Gdv" id="xJV-lL-asf"/>
+                        <outlet property="recordButton" destination="CqK-JO-Mqh" id="Wag-vM-erS"/>
+                        <outlet property="stopButton" destination="USe-E1-6jF" id="rEA-f0-VoM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
